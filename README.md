@@ -24,15 +24,15 @@ Antes de executar o projeto, certifique-se de que o Python 3.6 ou superior está
 
 - Instale as dependências:
 
-bash
-Copiar código
+```bash
 pip install -r requirements.txt
+```
 
 - Execute o bot:
 
-bash
-Copiar código
+```bash
 python app.py
+```
 
 - Automatização:
 
