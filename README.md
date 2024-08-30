@@ -28,6 +28,19 @@ Antes de executar o projeto, certifique-se de que o Python 3.6 ou superior está
 pip install -r requirements.txt
 ```
 
+- Crie um arquivo ```.env``` na raiz do projeto e adicione sua chave API e as credenciais de email e senha
+```bash
+API_KEY = sua_chave_API
+EMAIL_ADDRESS = seu_email
+EMAIL_PASSWORD = sua_senha
+```
+* ```Nota Importante```
+EMAIL_PASSWORD: Este deve ser o "App Password" gerado para o seu e-mail, e não a senha normal da sua conta. Se você ainda não tem uma conta Gmail, siga estes passos para gerar um "App Password":
+Acesse Sua Conta Google.
+Vá para a seção Segurança.
+Em Acesso a app menos seguro, ative a opção Permitir aplicativos menos seguros.
+Em Senha de app, clique em Gerar e siga as instruções para gerar uma senha específica para o seu aplicativo.
+
 - Execute o bot:
 
 ```bash
